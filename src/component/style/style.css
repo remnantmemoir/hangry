@@ -1,0 +1,190 @@
+/*Tampilan Desktop*/
+@media(min-width: 1024px){
+	.sidebar-mobile{
+		display: none;
+	}
+}
+
+ /*NAVBAR*/
+.header-wrapper{
+	width: 100%;
+	height: 96px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 99;
+	box-shadow: 0 0 1px rgba(0,0,0,.04),0 4px 8px rgba(0,0,0,.04),0 16px 24px rgba(0,0,0,.04);
+}
+
+.header{
+	padding: 24px 48px;
+	max-width: 1024px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.header-logo img{
+	height: 48px;
+	width: 140px;
+	cursor: pointer;
+}
+
+.header-menus{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header-menus ul{
+	list-style: none;
+	display: flex;
+}
+
+.header-menus a{
+	text-decoration: none;
+	padding: 8px;
+	margin-left: 48px;
+	cursor: pointer;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	color: #303030;
+}
+
+.header-menus-red a{
+	text-decoration: none;
+	padding: 8px;
+	margin-left: 48px;
+	cursor: pointer;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #a30926;
+}
+
+/*CONTENT*/
+/*Banner*/
+.content-wrapper{
+	padding-top: 96px;
+	overflow: hidden;
+	font-family: 'Inter', sans-serif;
+	
+}
+
+.banner-wrapper{
+	max-width: 1024px;
+	margin: auto;
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+}
+
+.banner-content{
+	width: 100%;
+	display: inline-block;
+	max-width: 1440px;
+	position: relative;
+	outline: none;
+	font-weight: bold;
+}
+
+.banner-content-tagline{
+	padding: 0 48px;
+	max-width: 478px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-content-text_description{
+	margin-bottom: 16px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #858c9b;
+}
+
+.banner-content-text_title{
+	margin-bottom: 64px;
+	font-size: 40px;
+	line-height: 60px;
+	color: #303030;
+}
+
+.banner-content-text_download{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*Daftar item*/
+.list-item{
+	padding: 0 48px;
+	max-width: 1024px;
+	box-sizing: border-box;
+	margin: 56px auto 120px;
+}
+
+.list-item-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.list-item_title{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;
+	color: #303030;
+	margin: 0;
+}
+
+.list-item_description{
+	margin-top: 8px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #5a5a5a;
+}
+
+/*Tampilan mobile*/
+@media(max-width: 1023px){
+	.header-menus{
+		display: none;
+	}
+	.header-wrapper{
+		position:fixed;
+		height: 48px;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: #fff;
+		z-index: 99;
+		box-shadow: 0 0 1px rgba(0,0,0,.04),0 4px 8px rgba(0,0,0,.04),0 16px 24px rgba(0,0,0,.04);
+	}
+
+	.header{
+		padding: 10px 16px;
+		max-width: 360px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+	}
+
+	.header-logo img{
+		height: 24px;
+		width: 64px;
+		cursor: pointer;
+	}
+
+}
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
