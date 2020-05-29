@@ -5,6 +5,7 @@ export const appstore = require('./appstore.svg');
 export const arrow = require('./arrow.svg');
 export const banner = require('./hero-banner-desktop-sm.jpg');
 export const mobile = require('./hero-banner-mobile.jpg');
+export const bannerlg = require('./hero-banner-desktop-lg.jpg');
 export const ayam = require('./Thumbnail_Homescreen_AyamKoplo.jpg');
 export const koplo = require('./Ayam_Koplo.png');
 export const sangyu = require('./Thumbnail_Homescreen_SanGyu.jpg');
