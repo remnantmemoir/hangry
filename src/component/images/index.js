@@ -1,0 +1,15 @@
+export const logo = require('./logo.svg');
+export const bars = require('./bars.svg');
+export const gstore = require('./gplay.svg');
+export const appstore = require('./appstore.svg');
+export const arrow = require('./arrow.svg');
+export const banner = require('./hero-banner-desktop-sm.jpg');
+export const mobile = require('./hero-banner-mobile.jpg');
+export const ayam = require('./Thumbnail_Homescreen_AyamKoplo.jpg');
+export const koplo = require('./Ayam_Koplo.png');
+export const sangyu = require('./Thumbnail_Homescreen_SanGyu.jpg');
+export const logosangyu = require('./San_Gyu.png');
+export const budesari = require('./Thumbnail_Homescreen_BudeSari.jpg');
+export const logobude = require('./Bude_Sari.png');
+export const kopi = require('./Thumbnail_Homescreen_KopiDaripada.jpg');
+export const daripada = require('./Kopi_DariPada.png');

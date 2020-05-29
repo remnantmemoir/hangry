@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../images/hangry-animated.42036c54.gif';
-import Bars from '../images/bars.svg';
+import {logo,bars} from '../images';
 import '../style/style.css';
 
 
@@ -18,7 +17,7 @@ const navbar = props => (
 				</ul>
 			</div>
 			<div className="sidebar-mobile">
-				<img src={Bars} alt="Bars"/>
+				<img src={bars} alt="Bars"/>
 			</div>
 		</nav>
 	</header>
